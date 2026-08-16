@@ -1,0 +1,12 @@
+B = int(input("How many tickets does Fudail want to buy?\n"))
+T = int(input("How many total tickets are there?\n"))
+P = int(input("How many tickets did other people buy?\n"))
+if (P > T):
+    print("Sorry, there are only " + str(T) + " Tickets.")
+    print("Choose a number for P that is <= to " + str(T))
+    P = int(input("How many tickets did other people buy?\n"))
+
+if (B >= (T-P)):
+    print("No,there are only " +str(T-P) + " Tickets Left,you cannot buy " + str(B) + " Tickets.")
+else:
+    print("Yes " + str(T-P-B) + " Tickets left")

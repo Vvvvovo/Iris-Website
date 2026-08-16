@@ -1,0 +1,115 @@
+score = 0
+
+# Question 1
+print("Question 1:\n")
+print("What is the Capital of China?")
+answer = input()
+if answer == "Beijing":
+    score = score + 1
+    print("Great Job. Your score is: " + str(score))
+else:
+    print("Sorry, The correct answer was: Beijing")
+print()
+
+# Question 2
+print("Question 2:\n")
+print("What is the largest planet in our solar system?")
+answer = input()
+if answer == "Jupiter":
+    score = score + 1
+    print("Great Job. Your score is: " + str(score))
+else:
+    print("Sorry, The correct answer was: Jupiter")
+print()
+
+# Question 3
+print("Question 3:\n")
+print("How many continents are there?")
+answer = input()
+if answer == "7":
+    score = score + 1
+    print("Great Job. Your score is: " + str(score))
+else:
+    print("Sorry, The correct answer was: 7")
+print()
+
+# Question 4
+print("Question 4:\n")
+print("What gas do plants absorb from the air?")
+answer = input()
+if answer == "Carbon dioxide":
+    score = score + 1
+    print("Great Job. Your score is: " + str(score))
+else:
+    print("Sorry, The correct answer was: Carbon dioxide")
+print()
+
+# Question 5
+print("Question 5:\n")
+print("Which ocean is the largest on Earth?")
+answer = input()
+if answer == "Pacific":
+    score = score + 1
+    print("Great Job. Your score is: " + str(score))
+else:
+    print("Sorry, The correct answer was: Pacific")
+print()
+
+# Question 6
+print("Question 6:\n")
+print("What is the hardest natural substance on Earth?")
+answer = input()
+if answer == "Diamond":
+    score = score + 1
+    print("Great Job. Your score is: " + str(score))
+else:
+    print("Sorry, The correct answer was: Diamond")
+print()
+
+# Question 7
+print("Question 7:\n")
+print("How many bones are in an adult human body?")
+answer = input()
+if answer == "206":
+    score = score + 1
+    print("Great Job. Your score is: " + str(score))
+else:
+    print("Sorry, The correct answer was: 206")
+print()
+
+# Question 8
+print("Question 8:\n")
+print("Which country is home to the kangaroo?")
+answer = input()
+if answer == "Australia":
+    score = score + 1
+    print("Great Job. Your score is: " + str(score))
+else:
+    print("Sorry, The correct answer was: Australia")
+print()
+
+# Question 9
+print("Question 9:\n")
+print("What is the speed of light (approx, km/s)?")
+answer = input()
+if answer == "300000":
+    score = score + 1
+    print("Great Job. Your score is: " + str(score))
+else:
+    print("Sorry, The correct answer was: 300000")
+print()
+
+# Question 10
+print("Question 10:\n")
+print("What is the main language spoken in Brazil?")
+answer = input()
+if answer == "Portuguese":
+    score = score + 1
+    print("Great Job. Your score is: " + str(score))
+else:
+    print("Sorry, The correct answer was: Portuguese")
+print()
+
+# Final total score
+print("=== Quiz Finished ===")
+print("Your Final Score: " + str(score) + "/10")
