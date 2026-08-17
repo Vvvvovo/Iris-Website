@@ -24,8 +24,6 @@
 <img src="img\beba93d6a17a5470f3650195de57bd61.jpg" width="400"  style="border-radius:12px;">
 
 <p>I also like to edit some videos</p></div>
-<div style="display:flex; justify-content:center;">
-<video src="file:///C:/Users/Administrator/Documents/xwechat_files/wxid_5dwegi8kw22m22_b6e7/msg/video/2026-08/2be19745655e5c604cae28031dedd0c0.mp4" controls width="500"></video></div>
 
 <div class="card">
 <div style="text-align:center;"><h1 style="background-color: #B8C4B0">My Canada Goals</h1>
@@ -111,7 +109,7 @@ In the afternoon we visited Casa Loma.</p >
 <div class="card">
 <h2>August 14</h2>
   <h2 style="text-align:center;">This is my Python Quiz</h2>
-<pre style="background:#1e1e1e; color:#d4d4d4; padding:20px; border-radius:12px; font-family:Consolas,monospace; overflow-x:auto;">print("My first Python Program")
+<pre style="background:#1e1e1e; color:#d4d4d4; padding:20px; border-radius:12px; font-family:Consolas,monospace; overflow-x:auto;">
 print("My first Python Program")
 print("-----------------------")
 
@@ -262,7 +260,19 @@ print("Your Final Score: " + str(score) + "/10")
 <img src="img\9032f475a8ce6e626d4644e861446189.jpg" width="400" style="border-radius:20px">
 
 <h2>August 16</h2>
+<pre style="background:#1e1e1e; color:#d4d4d4; padding:20px; border-radius:12px; font-family:Consolas,monospace; overflow-x:auto;">
+B = int(input("How many tickets does Fudail want to buy?\n"))
+T = int(input("How many total tickets are there?\n"))
+P = int(input("How many tickets did other people buy?\n"))
+if (P > T):
+    print("Sorry, there are only " + str(T) + " Tickets.")
+    print("Choose a number for P that is <= to " + str(T))
+    P = int(input("How many tickets did other people buy?\n"))
 
+if (B >= (T-P)):
+    print("No,there are only " +str(T-P) + " Tickets Left,you cannot buy " + str(B) + " Tickets.")
+else:
+    print("Yes " + str(T-P-B) + " Tickets left")
 
 
 
